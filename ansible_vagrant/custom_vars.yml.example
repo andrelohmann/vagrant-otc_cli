@@ -1,0 +1,8 @@
+# custom vars will be put here
+
+otc_username:
+otc_password:
+otc_project_name:
+otc_domain_name: 
+otc_accews_key:
+otc_secret_key:

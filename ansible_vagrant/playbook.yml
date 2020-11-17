@@ -1,0 +1,17 @@
+---
+
+- hosts: all
+  become: true
+  become_method: sudo
+
+  pre_tasks:
+  - name: Include custom_vars.yml
+    include_vars:
+      file: custom_vars.yml
+
+  roles:
+  - andrelohmann.root_colored_prompt
+  - otc_cli_installer
+
+
+...
